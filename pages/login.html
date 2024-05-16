@@ -13,7 +13,7 @@
     crossorigin="anonymous">
     <link href="./../css/login.css" rel="stylesheet">
 </head>
-<body class="main-booking ">
+<body class="main-booking text-center text-light roboto-condensed">
   <!-- nav bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary " id="navbar">
     <img src="./../images/common_images/main-logo.png" class="main-logo">
@@ -47,12 +47,16 @@
     </div>
   </nav>  
 
+
+  <h3>Email Us</h3>
+  <h4>Leave your name, contact information, and a message, and we'll be in touch!</h4>
     <div class="container">
         <form class="bg-plane">
-            <div>
-             <label  for="from"  class="froms mx-2 py-2 fs-5 text p-3 rounded-3 m-1">From:</label>
-            <input type="text" id="from" name="from" class="text p-3 rounded-3 m-1 element" required><br>
-        </div>
+            <label for="location" class="text p-3 rounded-3 m-1 element mx-2 py-2 fs-5">Choose a location:</label>
+<select name="location" id="location" class="text p-3 rounded-3 m-1 element">
+  <option value="civil-lines">Civil Lines</option>
+  <option value="khatroad">Khat Road</option>
+</select>
 
             <div>
             <label for="to"  class="mx-2 py-2 fs-5">To:</label>
