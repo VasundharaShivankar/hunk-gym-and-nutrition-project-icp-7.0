@@ -1,7 +1,5 @@
-// script.js
-
 // Object Destructuring
-const { reasons } = {
+const reasons  = {
     reasons: [
       "Learn from experts",
       "Network with peers",
