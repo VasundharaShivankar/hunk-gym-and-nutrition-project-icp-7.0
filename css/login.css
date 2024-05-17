@@ -144,7 +144,7 @@ height:600px;
         .btn-quantity{
             height: 35px;
             justify-content: center;
-
+            cursor: pointer;
         }
         .already{
             font-size: 25px;
