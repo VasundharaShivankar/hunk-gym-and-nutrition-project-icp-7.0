@@ -45,9 +45,90 @@
       <a href="./sign_up.html" target="_blank" style="text-decoration: none;"><i class="fa-solid fa-user-plus fs-3 sgn text-dark"
         style="cursor:pointer; text-decoration: none;"></i></a>
     </div>
-  </nav>    
+  </nav>   
+  
+  
+  <div class="mx-3 about_header"> <h1 class="text-center pt-5 ">About Gym Hunk & Nutrition</h1></div><br/>
+  <h2  class="text-center">Our Story</h2>
+    <p class="text-center fs-5 mx-5">At Hunk Gym & Nutrition, we’re more than just a fitness center – we’re a community dedicated to transforming lives. Our journey began with a simple vision: to create a space where individuals could unleash their inner strength, both physically and mentally. 
+      Here’s how we’ve turned that vision into reality:</p><br/>
+    <h3  class="text-center">Our Philosophy</h3>
+    <p  class="text-center fs-5 mx-5">Holistic Approach: We believe that true fitness extends beyond lifting weights. 
+      It’s about nourishing your body, challenging your mind, and fostering a supportive community. Our holistic approach combines strength training, nutrition counseling, and mental resilience.</p>
+      <ul  class="text-center fs-5 mx-5"><li>Nutrition Matters: You can’t out-train a bad diet. That’s why our nutrition experts work closely with members to create personalized meal plans. From macros to micros, we’ve got you covered.</li>
+      <li>Community Bond: Hunk Gym isn’t just a place to work out; it’s where friendships are forged, goals are celebrated, and setbacks are overcome. Our tight-knit community supports each other through every squat, plank, and protein shake.</li>
+      <li>Fueling Success: Nutrition is the cornerstone of any fitness journey. Our nutritionists create customized meal plans that align with your goals – whether it’s muscle gain, fat loss, or overall well-being. We believe in balance, not deprivation.</li>
+      <li>Mind-Body Connection: Fitness isn’t just physical; it’s mental too. 
+      Join our yoga and meditation classes to find inner peace, reduce stress, and enhance focus. A healthy mind fuels a healthy body.</li></ul><br/>
+      <h3  class="text-center">Our Mission</h3>
+      <ul  class="text-center fs-5 mx-5"><li>Strength Beyond Reps: We believe that true strength extends beyond the weights you lift. 
+        It’s about resilience, determination, and pushing your limits. Our expert trainers guide you through personalized workouts that challenge both body and mind.</li>
+        <li>Functional Fitness: Whether you’re a seasoned athlete or a beginner, our functional training programs enhance your everyday movements. From lifting groceries to climbing stairs, we prepare you for life’s challenges.</li></ul> 
+        <br/>
+      <h3  class="text-center">Join the Hunk Family</h3>
+      <p  class="text-center fs-5 mx-5">Ready to embark on your fitness journey? Come visit us at our Civil Line location in Bhandara, India. 
+        We’re more than a gym – we’re a family committed to your success. Let’s lift, laugh, and grow stronger together! 
+        Feel free to explore our website for more details, class schedules, and success stories. And remember, at Hunk Gym & Nutrition, every rep counts! </p>
+     
 
-     <!-- Footer -->
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <!-- Add your reviews dynamically here -->
+              <div class="carousel-item active">
+                  <div class="testimonial-slide">
+                      <p>Great gym! The trainers are knowledgeable and supportive. - John Doe</p>
+                  </div>
+              </div>
+              <!-- Add more reviews as needed -->
+          </div>
+          <!-- Navigation controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  
+      <!-- Include Bootstrap JS (optional) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+      <script>
+          const reviews = [
+              "Great gym! The trainers are knowledgeable and supportive. - John Doe",
+              "Awesome nutrition advice. I've seen significant progress! - Jane Smith",
+              "Incredible atmosphere. Highly recommend! - Alex Brown",
+              "Best fitness center in town. - Emily Johnson",
+              "Knowledgeable staff and clean facilities. - Michael Lee",
+              "Transformed my health. Thank you! - Sarah Adams"
+          ];
+  
+          const slider = document.querySelector('.carousel-inner');
+          let currentReviewIndex = 0;
+  
+          function displayNextReview() {
+              const review = reviews[currentReviewIndex];
+              const reviewElement = document.createElement('div');
+              reviewElement.classList.add('carousel-item');
+              reviewElement.innerHTML = `<div class="testimonial-slide">${review}</div>`;
+              slider.appendChild(reviewElement);
+  
+              currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+          }
+  
+          // Display the first review
+          displayNextReview();
+  
+          // Auto-play the slider (adjust the interval as needed)
+          setInterval(displayNextReview, 3500); // Change review every 3.5 seconds
+      </script>
+
+
+
+
+     
+      <!-- Footer -->
 <div class="container-footer mb-2">
     <div class="newsletter p-2 justify-content-center ">
       <h3 class="text-center roboto-condensed-uniquifier mt-2">Join the Newsletter</h3>
