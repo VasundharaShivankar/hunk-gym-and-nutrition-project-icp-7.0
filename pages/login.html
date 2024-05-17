@@ -51,10 +51,10 @@
   <div class="container  text-center">
     <form>
          <label for="departure" class="mx-2 py-2 fs-5">First Name:</label>
-        <input type="text" id="departure" name="departure" class="text p-3 rounded-3 m-1 element" required><br>
+        <input type="text" id="first" name="departure" class="text p-3 rounded-3 m-1 element" required><br>
     <div>
         <label for="return" class="mx-2 py-2 fs-5">Last Name:</label>
-        <input type="text" id="return" name="return" class="text p-3 rounded-3 m-1 element" required><br>
+        <input type="text" id="last" name="return" class="text p-3 rounded-3 m-1 element" required><br>
     </div>
     <div>
       <label for="email" class="mx-2 py-2 fs-5">Email:</label>
@@ -94,7 +94,7 @@
 </div>
 <div>
   <label for="initial-days" class="mx-2 py-2 fs-5">Initial Days:</label>
-  <div class="travelers-inc-dec">
+  <div class="days-inc-dec">
       <span><img src="./../images/login/minus.png" class="btn-quantity" onclick="dec()"></span>
       <span class="already text-dark" id="quan-txt">7</span>
       <span><img src="./../images/login/plus.png" class="btn-quantity" onclick="inc()"></span>
@@ -103,7 +103,7 @@
 
 
 <div>
-  <button class="btn btn-warning text-light button p-2 my-4 submit-btn">Submit</button>
+  <button class="btn btn-warning text-light button p-2 my-4 submit-btn" onclick="validateForm(event)">Submit</button>
 </div>
 </form>
 </div>

@@ -130,7 +130,7 @@ height:600px;
     input[type="submit"]:hover {
         background-color: #ffc107;
     }
-    .travelers-inc-dec{
+    .days-inc-dec{
            margin-left: 15%;
             width: 70%;
             padding: 25px;
