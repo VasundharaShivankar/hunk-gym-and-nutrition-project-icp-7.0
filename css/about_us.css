@@ -46,7 +46,24 @@ height:530px;
   padding:140px;
   color: white;
 }
-
+.testimonial-slide {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.review{
+  height:150px;
+  width: 400px;
+  margin: 5px auto;
+}
+.buttons-pre{
+  margin: 10 auto;
+}
+.et_pb_slider {
+  overflow: visible;
+}
 
 
 /* footer css */
