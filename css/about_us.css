@@ -46,17 +46,20 @@ height:530px;
   padding:140px;
   color: white;
 }
-.testimonial-slide {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+.loadMoreBtn{
+  border-radius:5px;
+  margin-bottom:20px;
+  margin-left: 47%;
 }
 .review{
   height:190px;
   width: 450px;
   margin: 20px auto;
+  text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
 }
 .star{
   height:20px;

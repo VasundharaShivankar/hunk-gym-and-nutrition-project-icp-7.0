@@ -67,9 +67,21 @@ function showPrevReviews() {
   nextBtn.disabled = false;
 }
 
-// Add event listeners to the buttons
 nextBtn.addEventListener('click', showNextReviews);
 prevBtn.addEventListener('click', showPrevReviews);
-
-// Initially show the first 3 reviews
 showNextReviews();
+
+
+
+function loadMore1() {
+  var contentDiv = document.getElementById("content1");
+  var loadMoreBtn = document.getElementById("loadMoreBtn1");
+
+  if (contentDiv.style.display === "none") {
+    contentDiv.style.display = "block";
+    loadMoreBtn.textContent = "Show Less";
+  } else {
+    contentDiv.style.display = "none";
+    loadMoreBtn.textContent = "Know More";
+  }
+}
